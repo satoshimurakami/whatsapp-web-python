@@ -1,0 +1,27 @@
+# Ambientes Virtuais
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Variáveis de Ambiente e Segredos (NUNCA COMITAR!)
+.env
+*.env.local
+
+# Arquivos temporários e backups
+*.zip
+*.tar.gz
+*.rar
+.DS_Store
+Thumbs.db
+
+# Banco vetorial e dados locais (caso salve Chroma no disco futuramente)
+chroma_db/
+chromadb_data/
+*.sqlite3
